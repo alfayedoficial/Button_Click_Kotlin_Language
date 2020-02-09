@@ -2,4 +2,10 @@
     <string name="app_name">ButtonClick</string>
     <string name="change_text">Change Text</string>
     <string name="go_to_activity">Go To Activity</string>
+    <string name="color_text">Color</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="button">Button</string>
+    <string name="red">Red</string>
 </resources>

@@ -4,6 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Main2Activity"
+    android:id="@+id/backgroundActivity">
 
+
+    <TextView
+        android:id="@+id/txtColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/color_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtColor">
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/red"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_dark"/>
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_green_light"/>
+
+        <Button
+            android:id="@+id/btnOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orange"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_orange_light"/>
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blue"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnOrange2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_orange_dark"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
