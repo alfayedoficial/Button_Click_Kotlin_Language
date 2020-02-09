@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ButtonClick</string>
+    <string name="change_text">Change Text</string>
+    <string name="go_to_activity">Go To Activity</string>
+</resources>
